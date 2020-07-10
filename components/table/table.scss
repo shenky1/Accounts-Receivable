@@ -1,0 +1,44 @@
+.table {
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  tr:nth-child(odd) {
+    background: rgb(232, 232, 232);
+  }
+
+  tr:nth-child(even) {
+    background: rgb(244, 244, 244);
+  }
+
+  tr {
+    font-size: $fontSize;
+    th {
+      padding: 14px 12px 8px 12px;
+      font-weight: normal;
+      color: rgb(116, 116, 116);
+    }
+
+    td {
+      padding: $primaryPadding;
+    }
+
+    .break-word-container {
+      table-layout: fixed;
+      width: 100%;
+      word-wrap: break-word;
+      font-size: $fontSize;
+    }
+  }
+}
+
+.footer-middle {
+  display: flex;
+  align-items: center;
+
+  .page-number {
+    background-color: $buttonColor;
+    border-radius: 50%;
+    color: white;
+    padding: 5px 10px;
+  }
+}

@@ -1,0 +1,14 @@
+.toolbar {
+  padding: $primaryPadding;
+  display: flex;
+  justify-content: space-between;
+
+  .toolbar-title {
+    font-size: $titleFontSize;
+    font-weight: 600;
+  }
+
+  .toolbar-group-right {
+    display: flex;
+  }
+}

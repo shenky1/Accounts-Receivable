@@ -1,0 +1,10 @@
+.custom-button {
+  background-color: $buttonColor;
+  color: white;
+  font-size: $fontSize;
+  padding: $primaryPadding;
+  border: none;
+  border-radius: $borderRadius;
+  cursor: pointer;
+  text-align: center;
+}
